@@ -22,3 +22,4 @@ The intention behind this extension is to pull data from the front end of the cl
    - infect count.
 - save Commander image from scryfall.
 - test data.
+- option to feed data straight to Streamer.bot rather than saving values.

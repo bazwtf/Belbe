@@ -18,7 +18,7 @@
         }
     ],    
     "action": {
-      "default_popup": "popups/index.html",
+      "default_popup": "popup/popup.html",
       "default_icon": "images/belbe_icon_128.png"
     },
     "permissions": ["scripting", "activeTab"],

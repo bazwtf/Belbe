@@ -32,4 +32,4 @@ Right now, I am not looking for contributors but I will be in the near future on
 You are welcome to log feature requests and ideas into Issues if you wish.
 
 ## ShattergangEDH
-I'm the host and producer for the content team [ShattergangEDH, come check up out](http://shattergang.com/)!
+I'm the host and producer for the content team [ShattergangEDH, come check us out](http://shattergang.com/)!

@@ -12,8 +12,8 @@ The intention behind this extension is to pull data from the front end of the cl
 - [] Read and save names of Commanders.
 - [] Read and save names of players.
 - [] Read and save player pronouns.
-- [] Read and save game Time.
-- [] Start/stop observing
+- [] Read and save game time.
+- [] Start/stop observing.
 
 ## Extra scope
 - Read player states

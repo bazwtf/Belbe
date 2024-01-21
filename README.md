@@ -9,11 +9,14 @@ The intention behind this extension is to pull data from the front end of the cl
 
 ## Version Zero aims to:
 - [] Read and save life totals.
+- [] Start/stop observing.
+- [] Pass data to OBS via websocket.
+
+## Version 1.0 aims to:
 - [] Read and save names of Commanders.
 - [] Read and save names of players.
 - [] Read and save player pronouns.
 - [] Read and save game time.
-- [] Start/stop observing.
 
 ## Extra scope
 - Read player states

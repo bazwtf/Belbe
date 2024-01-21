@@ -28,20 +28,35 @@ function execScript(tab) {
     chrome.scripting.executeScript(
         {
             target:{tabId: tab.id, allFrames: true},
-            func:getLifeTotals
+            func:getLifeTotalValues
         },
         onResult
     );
 }
+/**
+ * Function to retrieve the life total objects from Spelltable
+ * then passing them back sanitised in an array
+ * @returns {array} Array of integers
+ */
+function getLifeTotalValues() {
 
-function getLifeTotals() {
-    // TODO - Get life totals from all players
-    // Return an array of the values
-
-    // Get Life Totals
-    const lifeTotals = document.querySelectorAll('[aria-label="Life Total"]');
-    console.log("hello", lifeTotals);
-    return Array.from(lifeTotals);
+    let lifeTotalsObjects, index;
+    let sanitisedLifeTotals = [];
+    
+    // Get life totals from objects
+    lifeTotalsObjects = document.querySelectorAll('input[aria-label="Life Total"]');
+    
+    // Extract life total values from objects
+    for (index = 0; index < lifeTotalsObjects.length; ++index) {
+        // TODO: Error handling if user passes a string
+        
+        let lifeTotal = lifeTotalsObjects[index].value;
+        
+        // Pass value (assumed integer)
+        sanitisedLifeTotals.push(lifeTotal);        
+    }
+    console.log(sanitisedLifeTotals);
+    return sanitisedLifeTotals;
 }
 
 function onResult(frames) {

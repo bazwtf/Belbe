@@ -28,6 +28,7 @@ The intention behind this extension is to pull data from the front end of the cl
 - save Commander image from scryfall.
 - test data.
 - option to feed data straight to Streamer.bot rather than saving values.
+- game timer.
 
 ## Contributors
 Right now, I am not looking for contributors but I will be in the near future once I've established the foundations of the extension. Same story for testers.

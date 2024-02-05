@@ -7,12 +7,13 @@ The intention behind this extension is to pull data from the front end of the cl
 ## What is Spelltable?
 [Spelltable](https://spelltable.wizards.com/) is a platform used to remotely play various types of game variant of Magic The Gathering via webcam. 
 
-## Version Zero aims to:
+## Version 0.0.1 aims to:
 - [] Read and save life totals.
 - [] Start/stop observing.
 - [] Pass data to OBS via websocket.
+- [] Controlled by Streamer.bot (?)
 
-## Version 1.0 aims to:
+## Version 0.1 aims to:
 - [] Read and save names of Commanders.
 - [] Read and save names of players.
 - [] Read and save player pronouns.

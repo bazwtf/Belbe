@@ -1,6 +1,9 @@
 // Start Observing Button
 const startObserving = document.getElementById("startObserving");
 
+// Boolean to identify state of startObserving
+let amIObserving = false;
+
 /**
  * Start Observing the active tab
  */
@@ -10,6 +13,14 @@ startObserving.addEventListener("click",() => {
         const tab = tabs[0];
         if (tab) {
             // If we have an active tab then execute
+
+            // Check amIObserving boolean
+            // TODO: Boolean states for button.
+            if (false === amIObserving) {
+                amIObserving = true;
+            }
+
+            // Execute script in tab
             execScript(tab);
         } else {
             alert("There are no active tabs");
@@ -49,13 +60,18 @@ function getLifeTotalValues() {
     // Extract life total values from objects
     for (index = 0; index < lifeTotalsObjects.length; ++index) {
         // TODO: Error handling if user passes a string
+
+        // Add player number to each LifeTotalsObject
+        lifeTotalsObjects[index].setAttribute('data-player-number', index + 1 );
         
         let lifeTotal = lifeTotalsObjects[index].value;
         
         // Pass value (assumed integer)
         sanitisedLifeTotals.push(lifeTotal);        
     }
-    console.log(sanitisedLifeTotals);
+    console.log("Life Totals:" + sanitisedLifeTotals);
+
+    // startListeners();
     return sanitisedLifeTotals;
 }
 
@@ -68,4 +84,16 @@ function onResult(frames) {
     }
 
     console.log(frames);
+}
+
+function startListeners() {
+    // Start event listeners to track changes
+    let playerOneLife = document.querySelectorAll('data-player-number="1"]').addEventListener('input', function (evt) {
+        pushLifeTotal("player one", this.value);
+    });
+}
+
+function pushLifeTotal(player, value) {
+    // do something
+    console.log("Player: " + player, "Life total: " + value);
 }

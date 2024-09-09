@@ -6,7 +6,7 @@
 ## Overview
 
 Belbe, Corrupted Spelltable Observer is a Chrome extention for reading data from Spelltable.
-The intention behind this extension is to pull data from the front end of the client and make it reusable in an such as OBS.
+The intention behind this extension is to pull data from the Spelltable app and make it reusable in OBS.
 
 ## What is Spelltable?
 

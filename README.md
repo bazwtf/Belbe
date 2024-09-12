@@ -16,8 +16,9 @@ The intention behind this extension is to pull data from the Spelltable app and 
 
 ### 0.0.1 Aims
 
-- [] Read life totals.
+- [X] Read life totals.
 - [] Start/stop observing.
+- [] Listen for (life total) changes.
 - [] Pass data via websocket.
 
 ## Version 0.1 (Beta)

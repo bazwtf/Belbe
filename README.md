@@ -1,9 +1,9 @@
 
 # Belbe, Corrupted Spelltable Observer
 
-🚧 WIP
-
 ## Overview
+
+🚧 WIP
 
 Belbe, Corrupted Spelltable Observer is a Chrome extention for reading data from Spelltable.
 The intention behind this extension is to pull data from the Spelltable app and make it reusable in OBS.
@@ -12,42 +12,35 @@ The intention behind this extension is to pull data from the Spelltable app and 
 
 [Spelltable](https://spelltable.wizards.com/) is a platform used to remotely play various types of game variant of Magic The Gathering via webcam.
 
-## Version 0.0.1 (Beta)
+## Version 0.0.1 (Alpha)
 
-### Beta Aims
+### 0.0.1 Aims
 
-- [] Read and save life totals.
+- [] Read life totals.
 - [] Start/stop observing.
-- [] Pass data to OBS via websocket.
-- [] Controlled by Streamer.bot (?)
+- [] Pass data via websocket.
 
-## Version 0.1 MVP
+## Version 0.1 (Beta)
 
 ### 0.1 Aims
 
-- [] Read and save names of Commanders.
-- [] Read and save names of players.
-- [] Read and save player pronouns.
-- [] Read and save game time.
-
-## Extra scope
-
-- Read player states
-  - is Monarch.
-  - is Eliminated.
-  - Commander damage from players.
-  - infect count.
-  - Commander colour identity
-- save Commander image from scryfall.
-- test data.
-- option to feed data straight to Streamer.bot rather than saving values.
-- game timer.
+- [] Read and send names of Commanders.
+- [] Read and send Commander damage.
+- [] Read and send Poison damage.
+- [] Read and send player is Monarch.
+- [] Read and send player is Eliminated.
+- [] Read and send player  Commander colour identity.
+- [] Read and send game time.
 
 ## Contributors
 
-Right now, I am not looking for contributors but I will be in the near future once I've established the foundations of the extension. Same story for testers.
+Please reach out if you are interested in collaborating on this project.
 
 You are welcome to log feature requests and ideas into Issues if you wish.
+
+## Testers
+
+We are not currently recruiting testers.
 
 ## ShattergangEDH
 
